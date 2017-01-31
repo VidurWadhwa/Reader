@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "225348838254",
+    "firebase_url": "https://reader-61e7f.firebaseio.com",
+    "project_id": "reader-61e7f",
+    "storage_bucket": "reader-61e7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225348838254:android:56175fd522d06300",
+        "android_client_info": {
+          "package_name": "vidur.codeclan.reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225348838254-ok23nlg3lcpsf8ivcfkfn405lvfd0ko2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vidur.codeclan.reader",
+            "certificate_hash": "44D1EE4D98D1C8BDBB5E64CBB2707D4354A65A6C"
+          }
+        },
+        {
+          "client_id": "225348838254-jc2cds08oup7cb8ao6thesuogra0u0fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDA2dxvfMo75Cx7dVhxroUnfTnwGnyJH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225348838254-jc2cds08oup7cb8ao6thesuogra0u0fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
