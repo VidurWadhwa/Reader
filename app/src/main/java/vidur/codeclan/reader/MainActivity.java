@@ -53,9 +53,10 @@ public class MainActivity extends AppCompatActivity {
                 ref.orderByChild("aName").addChildEventListener(new ChildEventListener() {
                     @Override
                     public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                        String author = tv1.getText().toString();
+                        String author = et3.getText().toString();
                         Library lib = dataSnapshot.getValue(Library.class);
                         int result = author.compareTo(lib.getaName());
+
                         if (result == 0)
                         {
                             Toast.makeText(getApplicationContext(),"Yes the Data is present in the Database",Toast.LENGTH_LONG).show();
